@@ -1395,4 +1395,10 @@ p.mb-0 {
     background: #fff !important;
     box-shadow: none !important;
 }
+button.btn.btn-danger.rounded-pill {
+    padding: 10px 25px;
+}
+.list-style li {    
+    padding: 5px 0 !important;
+}
    
