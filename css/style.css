@@ -1410,8 +1410,8 @@ button.btn.btn-danger.rounded-pill {
     position: fixed;
     right: 25px;
     overflow: hidden;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 100px;
     border: 0;
     z-index: 9999;
@@ -1441,9 +1441,20 @@ button.btn.btn-danger.rounded-pill {
 .btn-floating.phone {
     bottom: 85px;
     background-color: #ea2d31;
+      animation: mymove 5s infinite;     
 }
 
 .btn-floating.phone:hover {
     background-color: #c03421;
 }
-   
+.btn-floating.phone img {
+ animation: pulse 3s infinite ease-in-out alternate;
+}
+@keyframes mymove {
+  50% {box-shadow: 3px 3px 30px #ea2d31;}
+}
+
+@keyframes pulse {
+  from { transform: scale(0.8); }
+  to { transform: scale(1.2); }
+}
