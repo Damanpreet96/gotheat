@@ -1373,7 +1373,7 @@ p.mb-0 {
 .modal textarea.form-control {
     height: 90px !important;
 }
-.rounded-pill:hover {   
+.rounded-pill:hover, .theme-btn.btn-style-one.hvr-light:hover, button.theme-btn.btn-style-one:hover {   
     background: #0070b8;
     border: none;
 }
@@ -1400,5 +1400,50 @@ button.btn.btn-danger.rounded-pill {
 }
 .list-style li {    
     padding: 5px 0 !important;
+}
+/* Base */
+.btn-floating:hover img {
+  margin-bottom: -3px
+}
+
+.btn-floating {
+    position: fixed;
+    right: 25px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    z-index: 9999;
+    color: white;
+    transition: .2s;
+}
+
+.btn-floating:hover {
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.btn-floating span {
+    font-size: 16px;
+    margin-left: 5px;
+    transition: .2s;
+    line-height: 0px;
+    display: none;
+}
+
+.btn-floating:hover span {
+    display: inline-block;
+}
+
+/* Phone */
+.btn-floating.phone {
+    bottom: 85px;
+    background-color: #ea2d31;
+}
+
+.btn-floating.phone:hover {
+    background-color: #c03421;
 }
    
