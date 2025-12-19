@@ -291,7 +291,15 @@ section#contact {
     padding-left: 0 !important;
     padding-top: 15px !important;
 }
+.fun-counter {   
+    margin-top: 70px !important;
+}
 
+}
+.fun-counter {
+    position: relative;
+    padding: 120px 0;
+    margin-top: 100px;
 }
 
 /* About us section */
