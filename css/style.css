@@ -351,6 +351,9 @@ section#contact {
     color: #ea2d31;
     font-weight: 700;
 }
+.services-section h2.sub-title {  
+    text-transform: capitalize;
+}
 .title-head .text {
     font-size: 18px;
     line-height: 30px;
