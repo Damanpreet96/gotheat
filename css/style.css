@@ -172,6 +172,12 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     padding: 30px 0 40px;
     background-color: #f8f5f1;
 }
+.ratio.ratio-1x1.overflow-hidden.rounded {
+    margin-bottom: 30px;
+}
+section.video.section.dam {
+    padding: 50px 0px 0px;
+}
 .services-section h2.sub-title {
     font-size: 32px !important;
     margin-bottom: 0px !important;
@@ -351,14 +357,14 @@ section#contact {
 .about-home .content-column .inner-column .title-head .title {
     margin-bottom: 49px;
 }
-.title-head h2, .services-section h2.sub-title {
+.title-head h2, .services-section h2.sub-title, section.video.section.dam h2.sub-title {
     position: relative;
     font-size: 48px;
     line-height: 1.2em;
     color: #ea2d31;
     font-weight: 700;
 }
-.services-section h2.sub-title {  
+.services-section h2.sub-title, section.video.section.dam h2.sub-title {  
     text-transform: capitalize;
 }
 .title-head .text {
@@ -432,6 +438,9 @@ section#contact {
     padding-left: 20px !important;
     font-size: 18px !important;
     font-weight: 500;
+}
+section.video.section.dam {
+    padding: 80px 0 20px;
 }
 .testimonials {    
     margin-top: 50px !important;
@@ -669,7 +678,7 @@ img {
     background: #000000;
     content: "";
 }
-#services h2.sub-title:before {
+#services h2.sub-title:before, .video.section.dam h2.sub-title:before {
     position: absolute;
     left: 100%;
     top: 50%;
@@ -680,6 +689,7 @@ img {
     background: #ea2d31 !important;
     content: "";
 }
+
 .services-lists {
     margin-bottom: 30px;
 }
